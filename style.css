@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'EB Garamond', serif;
+}
+
+body {
+    background-image: url(bgg.jpg);
+    background-size: cover;
+}
+
+.header {
+    padding: 20px;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo a {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.logo .hero-0 {
+    align-items: center;
+    padding: 10px;
+    font-size: 55px;
+    color: #ffffff;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+    font-size: 25px;
+    transition: all 150ms ease-in-out;
+}
+
+.nav a:hover {
+    color: #000000;
+    text-decoration: underline;
+    transform: translateY(-5px);
+}
+
+nav .fa-solid {
+    color: aliceblue;
+    display: none;
+}
+
+input {
+    background-color: white;
+    opacity: 0.6;
+    color: #000000;
+    border: none;
+    width: 20%;
+    padding: 15px;
+    margin: 0.8em;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+.weather__search {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 7px 8px;
+}
+
+i {
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+i:hover {
+    background: rgb(0, 0, 0);
+
+}
+
+
+.main-section {
+    background-image: linear-gradient(to bottom right, #FD8376, rgb(255, 255, 255));
+    opacity: 0.8;
+    color: #000000;
+    padding: 2rem;
+    width: 40%;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.paragraph {
+    font-size: 20px;
+}
+
+.weather-datas {
+    margin-top: 20px;
+
+}
+
+.main-temprature {
+    text-align: center;
+    font-size: 3rem;
+    padding: 5px;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    gap: 1rem;
+    align-items: center;
+}
+
+span {
+    font-size: 1.5rem;
+}
+
+.section {
+    background-color: rgb(232, 226, 226);
+
+}
+
+table {
+    box-shadow: 2px 2px 5px rgb(51, 51, 51);
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+
+}
+
+thead {
+    box-shadow: 2px 2px 5px rgb(230, 227, 227);
+}
+
+th {
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+td {
+    padding: 1rem 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff
+}

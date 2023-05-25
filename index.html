@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8908ea6adb.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none">
+                <span class="hero-0">WEATHER</span>App</a>
+        </div>
+
+        <nav>
+            <div class="nav" id="nav">
+                <ul>
+                    <li><a href="index.html">TODAY</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <form class="weather__search" action="weather.php" method="post">
+        <input type="text" placeholder="Enter city name" name="city_name" value="">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </form>
+
+    <section class="main-section">
+        <div class="container">
+            <div class="row">
+                <p class="paragraph full_date"></p>
+            </div>
+
+            <div class="row">
+                <p class="paragraph current_time"></p>
+                <p class="paragraph city-name"></p>
+            </div>
+
+            <div class="weather-datas"></div>
+
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
